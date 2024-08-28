@@ -1,0 +1,104 @@
+/*https://fonts.google.com/*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 6px 24px 16px 24px;
+}
+
+.banner-wrap {
+    background-image: url(./assets/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+    padding: 0 32px;
+
+}
+
+.nav-itam {
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.nav-itam:hover {
+    background-color: lightgray;
+    border-bottom-left-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-top-left-radius: 9999px;
+    border-top-right-radius: 9999px;
+ }
+
+
+.logo {
+    height: 24px;
+    width: 120px;
+}
+
+main{
+    text-align: center;
+    height: calc(100vh - 56px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tittle-section {
+    margin-top: 165px;
+}
+
+.actions-area {
+    margin-bottom: 60px;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    background-color: aqua;
+    width: 210px;
+    height: 26px;
+    padding: 7px 27px;
+    background-color: lightgray;
+    border-bottom-left-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-top-left-radius: 9999px;
+    border-top-right-radius: 9999px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.btn-dark {
+    background-color: black;
+    color: white;
+
+}
+
+.btn-light {
+    background-color: whitesmoke;
+    color: black;
+}
